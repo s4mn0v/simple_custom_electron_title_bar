@@ -1,13 +1,13 @@
 {
-  "name": "my-electron-app",
+  "name": "simple_custom_electron_title_bar",
   "version": "1.0.0",
-  "description": "Testing",
+  "description": "Simple custom electron title bar.",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "s4mn0v",
+  "author": "S4M-N0V",
   "license": "ISC",
   "devDependencies": {
     "electron": "^32.0.1"
