@@ -2,6 +2,16 @@
 
 A simple custom electron js title bar
 
+## For installation
+```
+npm i
+```
+```
+npm start
+```
+
+---
+
 ## Main.js
 ```
 // IPC event handlers
