@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' 'nonce-RandomNonceHere'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; frame-src 'self' https://www.youtube.com;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Title Bar</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div id="title-bar">
+        <span>My Custom Title Bar</span>
+        <div>
+            <button id="minimize-btn">_</button>
+            <button id="maximize-btn">[]</button>
+            <button id="close-btn">X</button>
+        </div>
+    </div>
+    <div id="content">
+        <h1>Welcome to My Electron App!</h1>
+        <p>Content goes here...</p>
+    </div>
+
+    <script src="../renderer.js"></script>
+</body>
+
+</html>
